@@ -17,6 +17,8 @@
 		<version>1.4.3.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
+	
+	
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -57,7 +59,8 @@
 		<dependency>
 			<groupId>me.pixka</groupId>
 			<artifactId>device</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<scope>compile</scope>
+			<version>0.0.2-SNAPSHOT</version>
 		</dependency>
 
 	</dependencies>
